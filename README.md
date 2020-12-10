@@ -6,10 +6,12 @@
     <a href="https://github.com/zyrolul"><img src="media/social/github.png" width="50"/></a>
     <a href="https://www.youtube.com/channel/UC3RKUJ8nLjrUvR0fZOwQXBw"><img src="media/social/youtube.png" width="50"/></a>
     <a href="https://www.twitch.tv/zyrobit"><img src="media/social/twitch.png" width="50"/></a>
+    <br>
+    <b>Project Status:</b> Not Started!
 </div>
 <br>
 
-**Project Status:** On Hold
+
 
 What is PoopEngine?\
 A game engine framework that is based on monogame and is free to use for anyone.
