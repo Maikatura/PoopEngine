@@ -6,18 +6,18 @@
     <a href="https://github.com/zyrolul"><img src="media/social/github.png" width="50"/></a>
     <a href="https://www.youtube.com/channel/UC3RKUJ8nLjrUvR0fZOwQXBw"><img src="media/social/youtube.png" width="50"/></a>
     <a href="https://www.twitch.tv/zyrobit"><img src="media/social/twitch.png" width="50"/></a>
-    <br>
-    <b>Project Status:</b> Not Started!
 </div>
-<br>
 
 
+### Features (Note its a framework for 2D Games)
+- [ ] ECS
+- [ ] Collisions
+- [ ] UI
+- [ ] Tilemap Support
 
-What is PoopEngine?\
-A game engine framework that is based on monogame and is free to use for anyone.
 
-I don't know when I will start working on it but remember to star this repo so you can easily find it. :)
+Supported Files types that it will have: `.png, .jpeg, .xnb, .mp3, .wav` and `.ogg`
 
-And also I wanna add only because this framework for monogame is called PoopEngine doesn't mean its gonna be trash...
+And some more at a later date
 
-If you have used unity or nez for monogame it will be alot like that but more simple to edit to your own liking.
+
