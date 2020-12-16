@@ -18,6 +18,12 @@
             </e>
           </e>
         </e>
+        <e p="ECS" t="Include">
+          <e p="Entity.cs" t="Include" />
+          <e p="Sprite.cs" t="Include" />
+          <e p="Transform.cs" t="Include" />
+          <e p="Vector2.cs" t="Include" />
+        </e>
         <e p="Game1.cs" t="Include" />
         <e p="Icon.bmp" t="Include" />
         <e p="Icon.ico" t="Include" />

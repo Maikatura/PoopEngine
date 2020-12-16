@@ -23,12 +23,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f678c3d9-9b54-4667-a955-4d3c9bb073f8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Vector2.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Game1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +39,17 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/Game1.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/ECS/Vector2.cs" />
+      </list>
+    </option>
   </component>
   <component name="ProjectId" id="1lWEUFnIMm9ttUHyCNZt1MLgvTp" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -78,13 +91,14 @@
       <option name="presentableId" value="Default" />
       <updated>1607704460708</updated>
       <workItem from="1607704484033" duration="388000" />
+      <workItem from="1608126005328" duration="852000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
-  <component name="UnityProjectConfiguration" hasMinimizedUI="null" />
+  <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -96,8 +110,15 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup" timestamp="1608126450737">
+      <screen x="0" y="0" width="1858" height="1080" />
+    </state>
+    <state x="592" y="235" width="672" height="678" key="search.everywhere.popup/0.0.1858.1080/-1856.0.1856.1080@0.0.1858.1080" timestamp="1608126450737" />
   </component>
 </project>
