@@ -12,6 +12,7 @@ namespace PoopEngine.ECS
 
         public SpriteRenderer(Sprite sprite)
         {
+            
             this.sprite = sprite;
         }
         

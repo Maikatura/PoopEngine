@@ -5,7 +5,13 @@ namespace PoopEngine.ECS
 {
     public class Component
     {
-        
+
+        public Entity Entity;
+
+        public void Initilize(Entity entity)
+        {
+            Entity = entity;
+        }
 
         public virtual void Update(GameTime gameTime)
         {

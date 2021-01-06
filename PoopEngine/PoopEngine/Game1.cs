@@ -60,8 +60,6 @@ namespace PoopEngine
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
             Graphics.Instance.Batcher.Begin();
-            
-            // TODO: Add your drawing code here
             CompHandler.Instance.Draw(gameTime);
             Graphics.Instance.Batcher.End();
             

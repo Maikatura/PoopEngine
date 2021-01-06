@@ -1,4 +1,6 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
 using Microsoft.Xna.Framework;
 
 namespace PoopEngine.ECS
@@ -33,22 +35,39 @@ namespace PoopEngine.ECS
             entityName = name;
         }
 
-        public Component AddComponent(Component compToAdd)
+        public T AddComp<T>(T compToAdd) where T : Component
         {
             components.Add(compToAdd);
             CompHandler.Instance.Add(compToAdd);
+            compToAdd.Initilize(this);
             return compToAdd;
         }
 
-        public void RemoveComponent(Component compToRemove)
+        public void RemoveComp<T>(T compToRemove) where T : Component
         {
             if (components.Contains(compToRemove))
             {
                 components.Remove(compToRemove);
                 CompHandler.Instance.Remove(compToRemove);
             }
-                
         }
+
+        public Component GetComp<T>(T compToGet) where T : Component
+        {
+            if (components.Contains(compToGet))
+                return components.Find(x => x == compToGet);
+
+            return null;
+        }
+
+        public bool HasComp<T>(T compToCheck) where T : Component
+        {
+            if (components.Contains(compToCheck))
+                return true;
+            
+            return false;
+        }
+        
 
 
         public static Entity CreateEntity(string name)

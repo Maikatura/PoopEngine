@@ -23,27 +23,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f678c3d9-9b54-4667-a955-4d3c9bb073f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/CompHandler.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Component.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/Graphics.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoopEngine/ECS/SpriteRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/Content/Content.mgcb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Content/Content.mgcb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/ECS/Component.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Vector2.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/SpriteRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/ECS/SpriteRenderer.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Game1.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,11 +44,11 @@
         <option value="$PROJECT_DIR$/PoopEngine/ECS/Graphics.cs" />
         <option value="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" />
         <option value="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" />
-        <option value="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" />
         <option value="$PROJECT_DIR$/PoopEngine/ECS/CompHandler.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/Game1.cs" />
         <option value="$PROJECT_DIR$/PoopEngine/ECS/Component.cs" />
         <option value="$PROJECT_DIR$/PoopEngine/ECS/SpriteRenderer.cs" />
-        <option value="$PROJECT_DIR$/PoopEngine/Game1.cs" />
+        <option value="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" />
       </list>
     </option>
   </component>
@@ -110,6 +94,7 @@
       <workItem from="1607704484033" duration="388000" />
       <workItem from="1608126005328" duration="852000" />
       <workItem from="1609900946833" duration="2342000" />
+      <workItem from="1609938585490" duration="1128000" />
     </task>
     <servers />
   </component>
