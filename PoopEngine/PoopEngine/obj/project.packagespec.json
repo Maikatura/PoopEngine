@@ -1,22 +1,17 @@
 ﻿{
   "version": "1.0.0",
   "restore": {
-    "projectUniqueName": "D:\\Github\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
+    "projectUniqueName": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
     "projectName": "PoopEngine",
-    "projectPath": "D:\\Github\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
-    "outputPath": "D:\\Github\\PoopEngine\\PoopEngine\\PoopEngine\\obj\\",
+    "projectPath": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
+    "outputPath": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\obj\\",
     "projectStyle": "PackageReference",
-    "fallbackFolders": [
-      "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-    ],
     "originalTargetFrameworks": [
       "netcoreapp3.1"
     ],
     "sources": {
       "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-      "http://teamcity.monogame.net/guestAuth/app/nuget/feed/_Root/default/v3/index.json": {},
-      "https://api.nuget.org/v3/index.json": {},
-      "https://nuget.emzi0767.com/api/v3/index.json": {}
+      "https://api.nuget.org/v3/index.json": {}
     },
     "frameworks": {
       "netcoreapp3.1": {
@@ -56,7 +51,7 @@
           "privateAssets": "all"
         }
       },
-      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.101\\RuntimeIdentifierGraph.json"
+      "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
     }
   }
 }

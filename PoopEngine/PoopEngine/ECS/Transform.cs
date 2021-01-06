@@ -1,4 +1,6 @@
-﻿namespace PoopEngine.ECS
+﻿using Microsoft.Xna.Framework;
+
+namespace PoopEngine.ECS
 {
     public class Transform
     {

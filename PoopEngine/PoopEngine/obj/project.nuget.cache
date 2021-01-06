@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "BweeYgxkK7hinNIBOasjSdhAEiWea0HAqSWUKFaXUUvqwQE1m8UFY0jJIC+K+DqtmYbgLPibwbTd0r05xCbEvA==",
+  "dgSpecHash": "6PNCDNlITCJoVMcowmOy4fVPbHgLYdcxqXrM9G1zl7x4Nqu5pwj76cSSl/s6zlFVgmqqhCVugYfspRY9+r7NzQ==",
   "success": true,
-  "projectFilePath": "D:\\Github\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
+  "projectFilePath": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Zyro\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
-    "C:\\Users\\Zyro\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    "C:\\Users\\simon.igelstrom\\.nuget\\packages\\monogame.content.builder.task\\3.8.0.1641\\monogame.content.builder.task.3.8.0.1641.nupkg.sha512",
+    "C:\\Users\\simon.igelstrom\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
   ],
   "logs": []
 }
