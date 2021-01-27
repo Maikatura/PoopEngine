@@ -22,7 +22,7 @@ If you have used unity or nez for monogame it will be alot like that but more si
 Features that Poop Engine will have!
 - [ ] Headless.
 - [ ] Easy Animation System.
-- [ ] TMX Map support
+- [ ] TMX Map support.
 
 Extra features that will maybe come later.
-- [ ] Json Map support
+- [ ] Json Map support.
