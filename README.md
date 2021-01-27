@@ -26,3 +26,4 @@ Features that Poop Engine will have!
 
 Extra features that will maybe come later.
 - [ ] Json Map support.
+- [ ] Dialog System.
