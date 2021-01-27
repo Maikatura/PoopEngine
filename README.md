@@ -15,9 +15,14 @@
 
 What is PoopEngine?\
 A game engine framework that is based on monogame and is free to use for anyone.
-
 I don't know when I will start working on it but remember to star this repo so you can easily find it. :)
-
 And also I wanna add only because this framework for monogame is called PoopEngine doesn't mean its gonna be trash...
-
 If you have used unity or nez for monogame it will be alot like that but more simple to edit to your own liking.
+
+Features that Poop Engine will have!
+- [ ] Headless.
+- [ ] Easy Animation System.
+- [ ] TMX Map support
+
+Extra features that will maybe come later.
+- [ ] Json Map support
