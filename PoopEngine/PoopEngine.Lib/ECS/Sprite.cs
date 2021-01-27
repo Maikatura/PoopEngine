@@ -1,24 +1,28 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace PoopEngine.ECS
+namespace PoopEngine.Lib.ECS
 {
     public class Sprite
     {
         private Texture2D texture;
-        private int Width, Height;
+        public int Width, Height;
+        public Vector2 Center;
+
+        private Rectangle rectangle;
 
 
         public Texture2D Texture()
         {
             return texture;
         }
-        
-        
-        
-        public Vector2 Center;
-        
 
+        
+        
+        
+        
+        
+        
         public Sprite(Texture2D texture)
         {
             this.texture = texture;
@@ -27,7 +31,20 @@ namespace PoopEngine.ECS
             Center = new Vector2((float)Width / 2, (float)Height / 2);
         }
         
+        // Checking if there are more x rows in sprite.
+        public bool CheckX()
+        {
+            return true;
+        }
+        
+        // Checking if there are more Y rows in sprite.
+        public bool CheckY()
+        {
+            return true;
+        }
+
         
 
+        
     }
 }

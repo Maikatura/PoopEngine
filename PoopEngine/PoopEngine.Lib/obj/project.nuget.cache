@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "LbfPjn+ke5EM1XW+2kqL49XfmTVNSxa8M+HCwCdW4AQ8MIZolgXuIP5thMAdYYDwv92ovJ1narRaZrzT2C9wNQ==",
+  "success": true,
+  "projectFilePath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\zyro\\.nuget\\packages\\monogame.framework.desktopgl\\3.8.0.1641\\monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,9 @@
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\bin\Debug\netcoreapp3.1\PoopEngine.Lib.deps.json
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\bin\Debug\netcoreapp3.1\PoopEngine.Lib.dll
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\bin\Debug\netcoreapp3.1\PoopEngine.Lib.pdb
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.csprojAssemblyReference.cache
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.AssemblyInfoInputs.cache
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.AssemblyInfo.cs
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.csproj.CoreCompileInputs.cache
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.dll
+D:\Github\EndorblastDevlogs\PoopEngine\PoopEngine\PoopEngine.Lib\obj\Debug\netcoreapp3.1\PoopEngine.Lib.pdb

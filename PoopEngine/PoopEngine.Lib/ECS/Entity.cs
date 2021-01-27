@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using Microsoft.Xna.Framework;
 
-namespace PoopEngine.ECS
+namespace PoopEngine.Lib.ECS
 {
     public class Entity
     {
@@ -33,6 +33,7 @@ namespace PoopEngine.ECS
         public Entity(string name)
         {
             entityName = name;
+            Transform = new Transform();
         }
 
         public T AddComp<T>(T compToAdd) where T : Component

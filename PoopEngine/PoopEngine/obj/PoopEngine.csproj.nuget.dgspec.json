@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj": {}
+    "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj": {}
   },
   "projects": {
-    "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj": {
+    "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
-        "projectName": "PoopEngine",
-        "projectPath": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
-        "packagesPath": "C:\\Users\\simon.igelstrom\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\simon.igelstrom\\Documents\\GitHub\\PoopEngine\\PoopEngine\\PoopEngine\\obj\\",
+        "projectUniqueName": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj",
+        "projectName": "PoopEngine.Lib",
+        "projectPath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj",
+        "packagesPath": "C:\\Users\\zyro\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\simon.igelstrom\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\zyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -28,6 +28,70 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MonoGame.Framework.DesktopGL": {
+              "target": "Package",
+              "version": "[3.8.0.1641, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
+        "projectName": "PoopEngine",
+        "projectPath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine\\PoopEngine.csproj",
+        "packagesPath": "C:\\Users\\zyro\\.nuget\\packages\\",
+        "outputPath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\zyro\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj": {
+                "projectPath": "D:\\Github\\EndorblastDevlogs\\PoopEngine\\PoopEngine\\PoopEngine.Lib\\PoopEngine.Lib.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -64,7 +128,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.102\\RuntimeIdentifierGraph.json"
         }
       }
     }

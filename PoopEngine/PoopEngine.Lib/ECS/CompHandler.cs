@@ -2,7 +2,7 @@
 using System.Net.Sockets;
 using Microsoft.Xna.Framework;
 
-namespace PoopEngine.ECS
+namespace PoopEngine.Lib.ECS
 {
     public class CompHandler
     {

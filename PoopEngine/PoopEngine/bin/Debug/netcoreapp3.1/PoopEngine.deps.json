@@ -9,7 +9,8 @@
       "PoopEngine/1.0.0": {
         "dependencies": {
           "MonoGame.Content.Builder.Task": "3.8.0.1641",
-          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641",
+          "PoopEngine.Lib": "1.0.0"
         },
         "runtime": {
           "PoopEngine.dll": {}
@@ -65,6 +66,14 @@
             "fileVersion": "0.0.0.0"
           }
         }
+      },
+      "PoopEngine.Lib/1.0.0": {
+        "dependencies": {
+          "MonoGame.Framework.DesktopGL": "3.8.0.1641"
+        },
+        "runtime": {
+          "PoopEngine.Lib.dll": {}
+        }
       }
     }
   },
@@ -87,6 +96,11 @@
       "sha512": "sha512-rJQlrlHQbnOECYV6EcQ8GlGRQ2lzPTroXQcyyOZ0ki+BQRSJEN2zVBm9skqLiXya348aGAfTSSGTaSKjAy9NaA==",
       "path": "monogame.framework.desktopgl/3.8.0.1641",
       "hashPath": "monogame.framework.desktopgl.3.8.0.1641.nupkg.sha512"
+    },
+    "PoopEngine.Lib/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

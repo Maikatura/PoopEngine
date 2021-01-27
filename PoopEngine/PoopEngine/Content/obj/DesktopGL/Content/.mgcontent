@@ -4,7 +4,7 @@
   <Platform>DesktopGL</Platform>
   <Config />
   <SourceFiles>
-    <File>C:/Users/simon.igelstrom/Documents/GitHub/PoopEngine/PoopEngine/PoopEngine/Content/Male_Idle.png</File>
+    <File>D:/Github/EndorblastDevlogs/PoopEngine/PoopEngine/PoopEngine/Content/Male_Idle.png</File>
   </SourceFiles>
   <DestFiles>
     <File xsi:nil="true" />

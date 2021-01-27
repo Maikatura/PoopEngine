@@ -1,7 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
-using PoopEngine.ECS;
+using PoopEngine.Lib.ECS;
 
 namespace PoopEngine
 {
@@ -17,6 +17,7 @@ namespace PoopEngine
             _graphics = new GraphicsDeviceManager(this);
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
+            Graphics.Content = Content;
         }
 
         protected override void Initialize()
@@ -25,23 +26,23 @@ namespace PoopEngine
 
             base.Initialize();
 
-
-            var test123 = Entity.CreateEntity("Test");
             
-            var sprite = new Sprite(test);
+            
+                
 
-            test123.AddComponent(new SpriteRenderer(sprite));
+            
 
         }
 
         protected override void LoadContent()
         {
             _spriteBatch = new SpriteBatch(GraphicsDevice);
-            Graphics.Instance.Batcher = _spriteBatch;
+            Graphics.Batcher = _spriteBatch;
 
+            var test123 = Entity.CreateEntity("Test");
+
+            test123.AddComp(new SpriteAnimation("Male_Idle", 64,64,10));
             
-            // TODO: use this.Content to load your game content here
-            test = Content.Load<Texture2D>("Male_Idle");
         }
 
         protected override void Update(GameTime gameTime)
@@ -59,9 +60,9 @@ namespace PoopEngine
         {
             GraphicsDevice.Clear(Color.CornflowerBlue);
 
-            Graphics.Instance.Batcher.Begin();
+            Graphics.Batcher.Begin();
             CompHandler.Instance.Draw(gameTime);
-            Graphics.Instance.Batcher.End();
+            Graphics.Batcher.End();
             
             base.Draw(gameTime);
             

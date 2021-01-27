@@ -2,9 +2,9 @@
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 
-namespace PoopEngine.ECS
+namespace PoopEngine.Lib.ECS
 {
-    class SpriteRenderer : Component
+    public class SpriteRenderer : Component
     {
 
         private Sprite sprite;
@@ -25,13 +25,14 @@ namespace PoopEngine.ECS
 
         public override void Draw(GameTime gameTime)
         {
-            Graphics.Instance.Batcher.Draw(sprite.Texture(), new Vector2(0,0), Color.White);
+            Graphics.Batcher.Draw(sprite.Texture(), Entity.Transform.Position, Color.White);
+   
         }
 
 
         public override void Update(GameTime gameTime)
         {
-            Console.WriteLine(0);
+            
         }
 
     }

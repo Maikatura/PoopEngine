@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PipelineBuildEvent xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <SourceFile>C:/Users/simon.igelstrom/Documents/GitHub/PoopEngine/PoopEngine/PoopEngine/Content/Male_Idle.png</SourceFile>
-  <SourceTime>2020-12-23T19:38:16.1077335+01:00</SourceTime>
-  <DestFile>C:/Users/simon.igelstrom/Documents/GitHub/PoopEngine/PoopEngine/PoopEngine/Content/bin/DesktopGL/Content/Male_Idle.xnb</DestFile>
-  <DestTime>2021-01-06T04:07:15.3458306+01:00</DestTime>
+  <SourceFile>D:/Github/EndorblastDevlogs/PoopEngine/PoopEngine/PoopEngine/Content/Male_Idle.png</SourceFile>
+  <SourceTime>2021-01-27T19:26:50.5903497+01:00</SourceTime>
+  <DestFile>D:/Github/EndorblastDevlogs/PoopEngine/PoopEngine/PoopEngine/Content/bin/DesktopGL/Content/Male_Idle.xnb</DestFile>
+  <DestTime>2021-01-27T19:34:04.7021778+01:00</DestTime>
   <Importer>TextureImporter</Importer>
   <ImporterTime>2020-08-10T16:17:54+02:00</ImporterTime>
   <Processor>TextureProcessor</Processor>
