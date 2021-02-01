@@ -49,6 +49,10 @@
       </e>
       <e p="PoopEngine.Lib" t="IncludeRecursive">
         <e p="bin" t="ExcludeRecursive" />
+        <e p="Colliders" t="Include">
+          <e p="BoxCollider.cs" t="Include" />
+          <e p="Collider.cs" t="Include" />
+        </e>
         <e p="Core.cs" t="Include" />
         <e p="ECS" t="Include">
           <e p="CompHandler.cs" t="Include" />
@@ -60,6 +64,10 @@
           <e p="Entity.cs" t="Include" />
           <e p="Graphics.cs" t="Include" />
           <e p="Sprite.cs" t="Include" />
+          <e p="TileMap" t="Include">
+            <e p="TileMap.cs" t="Include" />
+            <e p="TileMapJson.cs" t="Include" />
+          </e>
           <e p="Transform.cs" t="Include" />
         </e>
         <e p="obj" t="ExcludeRecursive">
@@ -69,7 +77,11 @@
             </e>
           </e>
         </e>
+        <e p="Physics" t="Include">
+          <e p="ColliderHelper.cs" t="Include" />
+        </e>
         <e p="PoopEngine.Lib.csproj" t="IncludeRecursive" />
+        <e p="Time.cs" t="Include" />
       </e>
       <e p="PoopEngine.sln" t="IncludeFlat" />
     </e>

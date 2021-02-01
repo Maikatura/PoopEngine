@@ -1,6 +1,7 @@
 ﻿using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Input;
+using PoopEngine.Lib;
 using PoopEngine.Lib.ECS;
 
 namespace PoopEngine
@@ -18,6 +19,7 @@ namespace PoopEngine
             Content.RootDirectory = "Content";
             IsMouseVisible = true;
             Graphics.Content = Content;
+            IsFixedTimeStep = true;
         }
 
         protected override void Initialize()
@@ -25,10 +27,6 @@ namespace PoopEngine
             // TODO: Add your initialization logic here
 
             base.Initialize();
-
-            
-            
-                
 
             
 
@@ -41,7 +39,7 @@ namespace PoopEngine
 
             var test123 = Entity.CreateEntity("Test");
 
-            test123.AddComp(new SpriteAnimation("Male_Idle", 64,64,10));
+            test123.AddComp(new SpriteAnimation("Male_Idle", 64,64, 10));
             
         }
 
@@ -50,6 +48,7 @@ namespace PoopEngine
             if (GamePad.GetState(PlayerIndex.One).Buttons.Back == ButtonState.Pressed || Keyboard.GetState().IsKeyDown(Keys.Escape))
                 Exit();
 
+            Time.Update((float)gameTime.ElapsedGameTime.TotalSeconds);
             CompHandler.Instance.Update(gameTime);
             
 
@@ -65,8 +64,6 @@ namespace PoopEngine
             Graphics.Batcher.End();
             
             base.Draw(gameTime);
-            
-            
         }
     }
 }

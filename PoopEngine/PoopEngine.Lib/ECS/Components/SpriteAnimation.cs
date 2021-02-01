@@ -10,8 +10,9 @@ namespace PoopEngine.Lib.ECS
     {
         
         private string Path;
-        private int framesPerSecond;
+        private int framesPerSecond = 1;        // FPS : If you don't have a lot of frames don't set it to a high value!
         private float timeToNextFrame;
+        private float elapsedTime;
         
 
         private int currentFrameX = 0;
@@ -35,22 +36,21 @@ namespace PoopEngine.Lib.ECS
             Path = path;
             Width = width;
             Height = height;
-            framesPerSecond = fps;
-
-            spriteRectangle = new Rectangle();
             
+            spriteRectangle = new Rectangle();
             spriteRectangle.Width = width;
             spriteRectangle.Height = height;
             
+            framesPerSecond = fps;
             currentFrameX = 0;
             currentFrameY = 0;
-            
+            elapsedTime = 0;
+
         }
 
         public static SpriteAnimation MakeAnimation(string path, int width, int height, int fps)
         {
             SpriteAnimation animation = new SpriteAnimation(path, width, height, fps);
-
             return animation;
         }
         
@@ -65,14 +65,13 @@ namespace PoopEngine.Lib.ECS
             
             rectangle.X = Width * currentFrameX;
             rectangle.Y = Height * currentFrameY;
-            
-            Console.WriteLine(rectangle.X + "|" + rectangle.Y);
-            
-            spriteRectangle = rectangle;
 
+            spriteRectangle = rectangle;
             return rectangle;
         }
 
+
+        // Check if there are more frames on X and Y and resets if there are none
         private void MoreXYFrames()
         {
             if (Width * currentFrameX >= sprite.Width - Width)
@@ -97,33 +96,25 @@ namespace PoopEngine.Lib.ECS
         public override void Update(GameTime gameTime)
         {
             base.Update(gameTime);
-
             
-            if (timeToNextFrame >= framesPerSecond)
-            {
-                timeToNextFrame = 0;
-                //NextFrame();
-            }
+            // Like nez but also not....
+            float fps = 1 / (float)framesPerSecond;
+            float duration = fps;
             
-            if (Keyboard.GetState().IsKeyDown(Keys.A) && !isPressed)
+            elapsedTime += Time.deltaTime;
+            var time = Math.Abs(elapsedTime);
+            
+            if (time > duration)
             {
-                isPressed = true;
+                elapsedTime = 0;
                 NextFrame();
             }
-            else if (Keyboard.GetState().IsKeyUp(Keys.A) && isPressed)
-            {
-                isPressed = false;
-            }
-
-
-            timeToNextFrame += (float)gameTime.ElapsedGameTime.TotalMilliseconds / framesPerSecond;
         }
 
         public override void Draw(GameTime gameTime)
         {
             base.Draw(gameTime);
             Graphics.Batcher.Draw(sprite.Texture(), Entity.Transform.Position, spriteRectangle, Color.White);
-            
         }
     }
 }

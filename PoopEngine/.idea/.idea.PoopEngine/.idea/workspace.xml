@@ -26,47 +26,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f678c3d9-9b54-4667-a955-4d3c9bb073f8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/Core.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/Colliders/BoxCollider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/Colliders/Collider.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/TileMap/TileMap.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/TileMap/TileMapJson.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/Physics/ColliderHelper.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/PoopEngine.Lib/Time.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.PoopEngine/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/PoopEngine/DesignTimeBuild/.dtbcache.v2" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PoopEngine/DesignTimeBuild/.dtbcache.v2" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.vs/PoopEngine/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/PoopEngine/v16/.suo" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine.sln" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.sln" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/Content/Male_Idle.png" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Content/Male_Idle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/Content/bin/DesktopGL/Content/Male_Idle.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Content/bin/DesktopGL/Content/Male_Idle.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/Content/obj/DesktopGL/Content/.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Content/obj/DesktopGL/Content/.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/Content/obj/DesktopGL/Content/Male_Idle.mgcontent" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Content/obj/DesktopGL/Content/Male_Idle.mgcontent" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/CompHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/CompHandler.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Component.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Component.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Entity.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Entity.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Graphics.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Graphics.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Sprite.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Sprite.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/SpriteRenderer.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteRenderer.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/ECS/Transform.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Transform.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteAnimation.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteAnimation.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/bin/Debug/netcoreapp3.1/PoopEngine.Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/bin/Debug/netcoreapp3.1/PoopEngine.Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/bin/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/bin/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.csproj.CoreCompileInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine.Lib/obj/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/Game1.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/Game1.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/PoopEngine.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/PoopEngine.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/Content/Male_Idle.xnb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/Content/Male_Idle.xnb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.Lib.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.Lib.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.Lib.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.runtimeconfig.dev.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/bin/Debug/netcoreapp3.1/PoopEngine.runtimeconfig.dev.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csproj.FileListAbsolute.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.csprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.dll" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.genruntimeconfig.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/PoopEngine.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/Debug/netcoreapp3.1/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/PoopEngine.csproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PoopEngine/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/PoopEngine/obj/rider.project.restore.info" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -101,9 +87,17 @@
       <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Entity.cs" />
       <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Transform.cs" />
       <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteRenderer.cs" />
-      <option value="$PROJECT_DIR$/PoopEngine/Game1.cs" />
       <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Sprite.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/Time.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine/Game1.cs" />
       <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Components/SpriteAnimation.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/TileMap/TileMapJson.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Physics/BoxHelper.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Colliders/Collider.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/Colliders/BoxCollider.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/Physics/BoxHelper.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/Physics/ColliderHelper.cs" />
+      <option value="$PROJECT_DIR$/PoopEngine.Lib/ECS/TileMap/TileMap.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="1lWEUFnIMm9ttUHyCNZt1MLgvTp" />
@@ -155,7 +149,12 @@
       <workItem from="1611654186967" duration="110000" />
       <workItem from="1611751380946" duration="1932000" />
       <workItem from="1611757995291" duration="4716000" />
-      <workItem from="1611764782152" duration="6102000" />
+      <workItem from="1611764782152" duration="6939000" />
+      <workItem from="1611779068597" duration="6233000" />
+      <workItem from="1611916370396" duration="202000" />
+      <workItem from="1612187514827" duration="898000" />
+      <workItem from="1612200230201" duration="116000" />
+      <workItem from="1612200537857" duration="14000" />
     </task>
     <servers />
   </component>
